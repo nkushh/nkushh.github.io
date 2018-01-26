@@ -198,7 +198,7 @@ header .carousel-inner .carousel-item img{
 }
 
 
-/* Pages styling */
+/* Pages global styling */
 #pages-header{
 	margin-top: 0;
 	min-height: 70px;
@@ -239,6 +239,25 @@ header .carousel-inner .carousel-item img{
 	margin: 50px auto;
 }
 
+
+
+/* About page */
+.about{
+	margin-top: 5%;
+}
+
+.about-img{
+	padding: 10px;
+}
+
+.about-img img{
+	width: 100%;
+	height: auto;
+}
+
+.about-text{
+	padding: 10px;
+}
 
 
 
