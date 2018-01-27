@@ -1,5 +1,6 @@
 /* Global styling */
 @import url('https://fonts.googleapis.com/css?family=Roboto:100, 300, 400, 500, 700');
+@import url('https://fonts.googleapis.com/css?family=Gruppo|Open+Sans+Condensed:100, 300, 400, 500, 700|Scope+One');
 
 *{
 	margin: 0;
@@ -19,6 +20,10 @@ body{
 
 .font-maroon{
 	color: #b1233d;
+}
+
+h2{
+	font-family: 'Open Sans Condensed', sans-serif;
 }
 
 /* Navbar */
@@ -257,6 +262,77 @@ header .carousel-inner .carousel-item img{
 
 .about-text{
 	padding: 10px;
+}
+
+/* Team */
+.team{
+	margin-top: 5%;
+	padding-bottom: 5%;
+}
+
+.team h2:after{
+	width: 100px;
+	height: 2px;
+	background-color: #b1233d;
+	display: block;
+	margin: 0 auto;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	content: " ";
+}
+
+.section-title{
+	padding: 10px;
+	text-align: center;
+	color: #b1233d;
+	margin-bottom: 3%;
+	width: 100%;
+}
+
+.section-title h2{
+	font-weight: 100;
+}
+
+.section-title h2 > span{
+	font-weight: 700;
+}
+
+.player{
+	padding: 10px;
+	margin-bottom: 3%;
+}
+
+.player img{
+	width: 100%;
+	height: auto;
+}
+
+.player-detail{
+	margin-top: 3%;
+	text-align: center;
+}
+
+.player-detail h4{
+	font-size: 18px;
+}
+
+.player-detail h5{
+	color: #b1233d;
+	font-size: 16px;
+}
+
+
+/* Conference page */
+.conference{
+	margin-top: 5%;
+}
+
+.nav-tabs .nav-link{
+	color: #b1233d;
+}
+
+.tab-content>.tab-pane {
+    margin-top: 2%;
 }
 
 
