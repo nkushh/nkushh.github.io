@@ -327,12 +327,66 @@ header .carousel-inner .carousel-item img{
 	margin-top: 5%;
 }
 
+.conference h2:after{
+	width: 100px;
+	height: 2px;
+	background-color: #b1233d;
+	display: block;
+	margin: 0 auto;
+	margin-top: 1%;
+	margin-bottom: 2%;
+	content: " ";
+}
+
+.track{
+	padding: 10px;
+	margin-bottom: 5%;
+	text-align: center;
+	border: 1px solid #b1233d;
+	border-radius: 5px;
+	height: 300px;
+}
+
+.track .fa{
+	font-size: 50px;
+	color: #b1233d;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+.track p{
+	font-size: 14px;
+}
+
+.conference nav{
+	margin-top: 5%;
+}
+
 .nav-tabs .nav-link{
 	color: #b1233d;
 }
 
 .tab-content>.tab-pane {
     margin-top: 2%;
+}
+
+.conference-call{
+	margin-top: 5%;
+	margin-bottom: 5%;
+	background: linear-gradient(rgba(166, 53, 63, 0.7), rgba(166, 53, 63, 0.7)), url('../img/slider/header5.jpg') no-repeat center;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 300px;
+	width: 100%;
+	color: #fff;
+}
+
+.conference-call p{
+	margin: 100px auto;
+	font-size: 25px;
+	font-weight: 700;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-style: italic;
 }
 
 
