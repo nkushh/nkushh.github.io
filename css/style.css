@@ -120,7 +120,7 @@ header .carousel-inner .carousel-item img{
 	height: 2px;
 	background-color: #b1233d;
 	margin: 0 auto;
-	margin-top: 2%;
+	margin-top: 1%;
 	margin-bottom: 1%;
 	content: "";
 	display: block;
@@ -276,7 +276,7 @@ header .carousel-inner .carousel-item img{
 	background-color: #b1233d;
 	display: block;
 	margin: 0 auto;
-	margin-top: 2%;
+	margin-top: 1%;
 	margin-bottom: 2%;
 	content: " ";
 }
@@ -284,7 +284,7 @@ header .carousel-inner .carousel-item img{
 .section-title{
 	padding: 10px;
 	text-align: center;
-	color: #b1233d;
+	color: #000;
 	margin-bottom: 3%;
 	width: 100%;
 }
