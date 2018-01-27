@@ -134,7 +134,7 @@ header .carousel-inner .carousel-item img{
 	top: 0;
 }
 
-#home-features button{
+#home-features .btn{
 	background: #b1233d;
 	border: none;
 }
@@ -272,10 +272,12 @@ footer{
 }
 
 .footer-credits{
+	margin-top: 20px;
 	float: left;
 }
 
 .footer-social-media{
+	margin-top: 20px;
 	float: right;
 }
 
