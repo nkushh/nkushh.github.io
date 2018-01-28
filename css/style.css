@@ -338,6 +338,11 @@ header .carousel-inner .carousel-item img{
 	content: " ";
 }
 
+.conference a{
+	text-decoration: none;
+	color: inherit;
+}
+
 .track{
 	padding: 10px;
 	margin-bottom: 5%;
@@ -345,6 +350,15 @@ header .carousel-inner .carousel-item img{
 	border: 1px solid #b1233d;
 	border-radius: 5px;
 	height: 300px;
+}
+
+.track:hover{
+	color: #fff;
+	background-color: #b1233d;
+}
+
+.track:hover .fa{
+	color: #fff;
 }
 
 .track .fa{
