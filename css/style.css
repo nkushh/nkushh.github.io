@@ -431,6 +431,45 @@ header .carousel-inner .carousel-item img{
 }
 
 
+/* Logistics page */
+.logistics{
+	margin-top: 5%;
+}
+
+.logistics h2:after{
+	width: 100px;
+	height: 2px;
+	background-color: #b1233d;
+	display: block;
+	margin: 0 auto;
+	margin-top: 1%;
+	margin-bottom: 2%;
+	content: " ";
+}
+
+.logistics .nav-pills .nav-link{
+	margin-right: 10px;
+}
+
+.logistics .nav-pills .nav-link.active{
+	color: #fff;
+	background-color: #b1233d;
+}
+
+.logistics .nav-pills .nav-link{
+	color: #b1233d;
+}
+
+.logistics .nav-pills .nav-link:hover{
+	color: #fff;
+	background-color: #b1233d;
+}
+
+.logistics .nav-pills .nav-link .fa{
+	margin-right: 10px;
+}
+
+
 
 
 
