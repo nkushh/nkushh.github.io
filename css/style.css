@@ -389,6 +389,33 @@ header .carousel-inner .carousel-item img{
 	font-style: italic;
 }
 
+/* Panel page */
+.track-description{
+	padding: 10px;
+	font-size: 16px;
+	width: 80%;
+	margin: -25px auto;
+	text-align: center;
+}
+
+.panelist{
+	margin-top: 25px;
+}
+
+.panelist img{
+	width: 100%;
+	height: auto;
+}
+
+.panelist-detail{
+	margin-top: 2%;
+	text-align: center;
+}
+
+.panelist-detail p{
+	color: #b1233d;
+}
+
 
 
 
