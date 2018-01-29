@@ -214,14 +214,14 @@ header .carousel-inner .carousel-item img{
 
 
 /* Pages global styling */
-#pages-header{
+.pages-header{
 	margin-top: 0;
 	min-height: 70px;
 	height: 90px;
     padding-top: 4.5rem
 }
 
-#pages-header .navbar {
+.pages-header .navbar {
     z-index: 1000;
     background: none !important;
     position: absolute;
@@ -229,15 +229,15 @@ header .carousel-inner .carousel-item img{
     width: 100%;
 }
 
-#pages-header .navbar-brand img {
+.pages-header .navbar-brand img {
     height: 70px;
 }
 
-#pages-header .navbar-dark .navbar-nav{
+.pages-header .navbar-dark .navbar-nav{
 
 }
 
-#pages-header .navbar-dark .nav-link{
+.pages-header .navbar-dark .nav-link{
 	color: #b1233d;
 }
 
@@ -561,7 +561,20 @@ footer{
 
 @media only screen and (max-width: 768px){
 
+	*{
+		float: none;
+	}
+
 	.navbar-dark .navbar-collapse{
+		background-color: #fff;
+		color: #b1233d;
+	}
+
+	.navbar-dark .navbar-nav .nav-item a{
+		color: #b1233d;
+	}
+
+	.pages-header .navbar-dark .navbar-collapse{
 		background-color: #fff;
 	}
 
@@ -591,6 +604,17 @@ footer{
 
 	header .carousel-caption p{
 		font-size: 1em;
+	}
+
+	/* Call to action area */
+
+	.conference-call p{
+		margin: 100px auto;
+		font-size: 16px;
+		font-weight: 700;
+		font-family: 'Open Sans Condensed', sans-serif;
+		font-style: italic;
+		text-align: center;
 	}
 
 	/* Logistics page */
