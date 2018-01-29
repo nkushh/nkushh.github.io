@@ -589,10 +589,16 @@ footer{
 		display: none;
 	}
 
+
 	header .carousel-inner .carousel-item img{
 		margin: auto;
-		height: 100vh;
+		height: 80vh;
 		width: 100%;
+	}
+
+	.main-text
+	{
+		height: 80vh;
 	}
 
 	header .carousel-caption h3{
