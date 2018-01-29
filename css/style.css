@@ -518,6 +518,45 @@ header .carousel-inner .carousel-item img{
 }
 
 
+/* Contact Page */
+.contact{
+	margin-top: 5%;
+	padding-bottom: 5%;
+}
+
+.contact h4{
+	margin-bottom: 5%;
+	color: #b1233d;
+}
+
+.contact-info{
+	padding: 10px;
+	color: #b1233d;
+}
+
+.contact-info span{
+	color: #444;
+}
+
+.contact-form label{
+	color: #b1233d;
+}
+
+.contact-form input,
+.contact-form textarea{
+	border: 1px solid #ccc;
+}
+
+.form-btns{
+	text-align: center;
+}
+
+.btn-submit{
+	background-color: #b1233d;
+	color: #fff;
+}
+
+
 
 
 
