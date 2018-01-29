@@ -62,12 +62,10 @@ header .navbar{
 	border-color: #b1233d;
 }
 
-.navbar-toggler-icon{
-	color: #b1233d;
-}
-
 .navbar-dark .navbar-collapse{
-	background-color: #fff;
+	background-size: cover;
+	width: 100%;
+	padding-left: 10px;
 }
 
 
@@ -562,6 +560,10 @@ footer{
 
 
 @media only screen and (max-width: 768px){
+
+	.navbar-dark .navbar-collapse{
+		background-color: #fff;
+	}
 
 	.hero-text{
 		margin-top: 50%;
