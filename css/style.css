@@ -233,11 +233,7 @@ header .carousel-inner .carousel-item img{
     height: 70px;
 }
 
-.pages-header .navbar-dark .navbar-nav{
-
-}
-
-.pages-header .navbar-dark .nav-link{
+.pages-header .navbar-dark .navbar-nav .nav-item a{
 	color: #b1233d;
 }
 
