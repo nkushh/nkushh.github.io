@@ -469,6 +469,46 @@ header .carousel-inner .carousel-item img{
 	margin-right: 10px;
 }
 
+.logistics ul:after{
+	content: " ";
+	width: 100%;
+	height: 1px;
+	background-color: #b1233d;
+	margin-top: 2%;
+	display: block;
+}
+
+.accomodation{
+	width: 90%;
+}
+
+.accomodation-img img{
+	width: 100%;
+	min-height: 250px;
+	height: auto;
+}
+
+.accomodation-detail{
+	padding: 10px;
+	background-color: #b1233d;
+	color: #fff;
+}
+
+.accomodation-detail h5{
+	font-size: 16px;
+	font-weight: 700;
+}
+
+.accomodation-detail h5 > span{
+	font-weight: 500;
+}
+
+.accomodation-detail h4{
+	font-size: 18px;
+	margin-bottom: 15px;
+	font-weight: 700;
+}
+
 
 
 
@@ -536,6 +576,11 @@ footer{
 
 	header .carousel-caption p{
 		font-size: 1em;
+	}
+
+	/* Logistics page */
+	.accomodation{
+		width: 100%;
 	}
 
 	.footer-credits{
