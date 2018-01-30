@@ -444,6 +444,21 @@ header .carousel-inner .carousel-item img{
 	padding-bottom: 5%;
 }
 
+.schedule table{
+	border: 2px solid #444;
+}
+
+.schedule table th{
+	color: #fff;
+	background-color: #b1233d;
+	text-align: center;
+}
+
+.schedule table td{
+	text-align: center;
+	border: 2px solid #444
+}
+
 
 /* Logistics page */
 .logistics{
