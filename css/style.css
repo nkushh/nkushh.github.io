@@ -464,18 +464,15 @@ header .carousel-inner .carousel-item img{
 }
 
 .schedule table{
-	border: 2px solid #444;
+	border: none;
 }
 
 .schedule table th{
-	color: #fff;
-	background-color: #b1233d;
 	text-align: center;
 }
 
 .schedule table td{
 	text-align: center;
-	border: 2px solid #444
 }
 
 
