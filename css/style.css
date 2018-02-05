@@ -689,6 +689,15 @@ footer{
 		background-color: #fff;
 	}
 
+	header .navbar .dropdown-menu{
+		background-color: #b1233d;
+	}
+
+	header .navbar .dropdown-menu .dropdown-item:hover{
+		background-color: #b1233d;
+		color: #333;
+	}
+
 	.hero-text{
 		margin-top: 50%;
 		color: #fff;
