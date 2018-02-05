@@ -27,13 +27,21 @@
 
           <div class="collapse navbar-collapse justify-content-end" id="mainNav">
             <ul class="navbar-nav">
-              <li class="nav-item"><a href="index.html" class="nav-link active">Home</a></li>
-              <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
-              <li class="nav-item"><a href="conference.html" class="nav-link">Conference</a></li>
-              <li class="nav-item"><a href="panel.html" class="nav-link">speakers</a></li>
-              <li class="nav-item"><a href="schedule.html" class="nav-link">Schedule</a></li>
-              <li class="nav-item"><a href="logistics.html" class="nav-link">Logistics</a></li>
-              <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                <li class="nav-item"><a href="index.html" class="nav-link active">Home</a></li>
+                <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="conference.html" class="nav-link">2018 Tracks</a></li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    2018 speakers
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="panel.html">Keynotes</a>
+                    <a class="dropdown-item" href="panel.html">Panels</a>
+                  </div>
+                </li>
+                <li class="nav-item"><a href="schedule.html" class="nav-link">2018 Schedule</a></li>
+                <li class="nav-item"><a href="logistics.html" class="nav-link">Logistics</a></li>
+                <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
             </ul>
           </div>
         </div>
@@ -78,8 +86,9 @@
       <div class="main-text">
         <div class="col-md-12">
           <div class="hero-text text-center">
-            <h2>The future of development: <br>Thinking ahead</h2>
-            <p>March 24, 2018</p>
+            <h2>24TH GLOBAL DEVELOPMENT CONFERENCE 2018</h2>
+            <h4>The future of development: Thinking ahead</h4>
+            <div id="countDown"></div>
           </div>
 
           <!-- Hero buttons -->
@@ -213,5 +222,37 @@
     <script src="js/jquery-3.2.1.slim.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+
+    <!-- Countdown -->
+    <script>
+      // Set the date we're counting down to
+      var countDownDate = new Date("Mar 24, 2018").getTime();
+
+      // Update the count down every 1 second
+      var x = setInterval(function() {
+
+        // Get todays date and time
+        var now = new Date().getTime();
+
+        // Find the distance between now an the count down date
+        var distance = countDownDate - now;
+
+        // Time calculations for days, hours, minutes and seconds
+        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+        // Display the result in the element with id="demo"
+        document.getElementById("countDown").innerHTML = days + "<span>days</span> " + hours + "<span>hours</span> "
+        + minutes + "<span>mins</span> " + seconds + "<span>secs</span> ";
+
+        // If the count down is finished, write some text 
+        if (distance < 0) {
+          clearInterval(x);
+          document.getElementById("countDown").innerHTML = "EXPIRED";
+        }
+      }, 1000);
+    </script>
   </body>
 </html>

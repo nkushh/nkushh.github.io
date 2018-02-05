@@ -31,10 +31,19 @@ h2{
 /* Navbar */
 header .navbar{
 	z-index: 1000;
-	background: none !important;
+	background: none;
 	position: absolute;
 	top: 0;
 	width: 100%;
+}
+
+header .navbar .dropdown-menu{
+	background-color: #b1233d;
+}
+
+header .navbar .dropdown-menu .dropdown-item:hover{
+	background-color: #b1233d;
+	color: #333;
 }
 
 .navbar-brand img{
@@ -77,6 +86,29 @@ header .navbar{
 	margin-top: 20%;
 	color: #fff;
 	text-transform: uppercase;
+}
+
+.hero-text h2{
+	font-weight: 700;
+	font-size: 40px;
+}
+
+.hero-text h4{
+	font-weight: 300;
+}
+
+#countDown{
+	margin-top: 5%;
+	font-weight: 400;
+	font-size: 35px;
+}
+
+#countDown span{
+	border-right: 1px solid #b1233d;
+	padding-right: 10px;
+	margin-left: 10px;
+	font-weight: 100;
+	font-size: 25px;
 }
 
 .hero-btns{
@@ -231,15 +263,18 @@ header .carousel-inner .carousel-item img{
 	margin-top: 0;
 	min-height: 70px;
 	height: 90px;
-    padding-top: 4.5rem
+    padding-top: 4.5rem;
+    background-color: #fff !important;
 }
 
 .pages-header .navbar {
     z-index: 1000;
-    background: none !important;
-    position: absolute;
-    top: 0;
     width: 100%;
+    overflow: hidden;
+    background-color: #fff !important;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
 }
 
 .pages-header .navbar-brand img {
@@ -281,6 +316,7 @@ header .carousel-inner .carousel-item img{
 
 .about-text{
 	padding: 10px;
+	text-align: center;
 }
 
 /* Team */
@@ -657,6 +693,30 @@ footer{
 		margin-top: 50%;
 		color: #fff;
 		text-transform: uppercase;
+	}
+
+	.hero-text h2{
+		font-weight: 700;
+		font-size: 20px;
+	}
+
+	.hero-text h4{
+		font-weight: 300;
+		font-size: 15px;
+	}
+
+	#countDown{
+		margin-top: 5%;
+		font-weight: 400;
+		font-size: 15px;
+	}
+
+	#countDown span{
+		border-right: 1px solid #b1233d;
+		padding-right: 10px;
+		margin-left: 10px;
+		font-weight: 100;
+		font-size: 15px;
 	}
 
 	.hero-btns{
