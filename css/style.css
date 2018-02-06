@@ -667,6 +667,20 @@ header .carousel-inner .carousel-item img{
 	color: #444;
 }
 
+.inline-social-media{
+	margin-top: 20px;
+}
+
+.inline-social-media li{
+	display: inline-block;
+	list-style: none;
+	padding-left: 10px;
+}
+
+.inline-social-media li a{
+	color: #b1233d;
+}
+
 .contact-form label{
 	color: #b1233d;
 }
