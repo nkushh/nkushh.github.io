@@ -282,7 +282,7 @@ header .carousel-inner .carousel-item img{
 }
 
 .pages-header .navbar {
-    z-index: 1000;
+    z-index: 21000;
     width: 100%;
     overflow: hidden;
     background-color: #fff !important;
