@@ -282,9 +282,8 @@ header .carousel-inner .carousel-item img{
 }
 
 .pages-header .navbar {
-    z-index: 21000;
+    z-index: 1000;
     width: 100%;
-    overflow: hidden;
     background-color: #fff !important;
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
@@ -297,6 +296,20 @@ header .carousel-inner .carousel-item img{
 
 .pages-header .navbar-dark .navbar-nav .nav-item a{
 	color: #b1233d;
+}
+
+.pages-header .navbar .dropdown-menu{
+	background-color: #b1233d;
+	z-index: 10000;
+}
+
+.pages-header .navbar .dropdown-menu .dropdown-item{
+	color: #fff !important;
+}
+
+.pages-header .navbar .dropdown-menu .dropdown-item:hover{
+	background-color: #b1233d;
+	color: #333;
 }
 
 .page-title{
