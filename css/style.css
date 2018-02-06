@@ -39,6 +39,7 @@ header .navbar{
 
 header .navbar .dropdown-menu{
 	background-color: #b1233d;
+	z-index: 10000;
 }
 
 header .navbar .dropdown-menu .dropdown-item:hover{
@@ -211,16 +212,29 @@ header .carousel-inner .carousel-item img{
 	display: block;
 }
 
-.testimonials .carousel-indicators{
-	bottom: -5%;
+.keynote-speaker{
+	border: 1px solid #fff;
+	padding-bottom: 5%;
 }
 
-.testimonials .carousel-inner img{
-	height: 150px;
-	border: 2px solid #b1233d;
-	margin-top: 5%;
-	margin-bottom: 3%;
-	padding: 5px;
+.keynote-speaker img{
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+.speaker-detail{
+	padding: 10px;
+	text-align: center;
+}
+
+.speaker-detail p{
+	margin-bottom: 5px;
+}
+
+.testimonials a{
+	text-decoration: none;
+	color: inherit;
 }
 
 
@@ -353,13 +367,42 @@ header .carousel-inner .carousel-item img{
 }
 
 .player{
-	padding: 10px;
+	padding: 0;
 	margin-bottom: 3%;
+	position: relative;
 }
 
 .player img{
 	width: 100%;
 	height: auto;
+	display: block;
+}
+
+
+.bio-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #b1233d;
+}
+
+.player:hover .bio-overlay {
+  opacity: 1;
+}
+
+.bio {
+  color: white;
+  font-size: 12px;
+  position: absolute;
+  top: 5%;
+  left: 2%;
+  text-align: center;
 }
 
 .player-detail{
@@ -491,6 +534,17 @@ header .carousel-inner .carousel-item img{
 	margin-bottom: 5px;
 }
 
+
+/* Speaker details */
+.speaker-bio{
+	margin-top: 5%;
+}
+
+.bio-img img{
+	width: 100%;
+	display: block;
+	height: auto;
+}
 
 
 /* Schedule page */
@@ -691,6 +745,7 @@ footer{
 
 	header .navbar .dropdown-menu{
 		background-color: #b1233d;
+		z-index: 1000;
 	}
 
 	header .navbar .dropdown-menu .dropdown-item:hover{
