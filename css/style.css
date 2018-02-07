@@ -528,9 +528,14 @@ header .carousel-inner .carousel-item img{
 	width: 90%;
 }
 
-.panelist img{
+.panelist-img{
+	text-align: center;
 	width: 100%;
-	height: auto;
+}
+
+.panelist-img img{
+	width: 100px;
+	height: 100px;
 	border-radius: 50%;
 	border: 1px solid #b1233d;
 	padding: 5px;
@@ -540,6 +545,10 @@ header .carousel-inner .carousel-item img{
 	margin-top: 2%;
 	text-align: center;
 	line-height: 1em;
+}
+
+.panelist-detail h5{
+	font-size: 18px;
 }
 
 .panelist-detail p{
@@ -557,6 +566,45 @@ header .carousel-inner .carousel-item img{
 	width: 100%;
 	display: block;
 	height: auto;
+}
+
+.speaker-row{
+	padding: 10px;
+	margin-top: 3%;
+	margin-bottom: 3%;
+}
+
+.speaker-cred{
+	width: 100%;
+	padding: 10px;
+}
+
+.speaker-cred h4{
+	margin-bottom: 5px;
+	word-wrap: break-word;	
+	font-weight: 700;
+}
+
+.speaker-cred .lead{
+	display: block !important;
+	font-weight: 300;
+	color: #666;
+}
+
+.speaker-row p{
+	font-weight: 300;
+}
+
+
+.speaker-row:after{
+	content: " ";
+	width: 60%;
+	height: 2px;
+	background-color: #eee;
+	display: block;
+	margin: auto;
+	margin-top: 4%;
+	margin-bottom: 4%;
 }
 
 
