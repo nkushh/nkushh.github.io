@@ -276,6 +276,23 @@ header .carousel-inner .carousel-item img{
 	margin: auto;
 }
 
+.supporter-type{
+	text-align: center;
+	width: 100%;
+	padding: 10px;
+}
+
+.supporter-type:after{
+	width: 100px;
+	height: 2px;
+	background-color: #eee;
+	display: block;
+	margin: 0 auto;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	content: " ";
+}
+
 .award{
 	margin-top: 10%;
 	text-align: center;
