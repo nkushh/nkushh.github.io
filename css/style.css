@@ -733,6 +733,7 @@ header .carousel-inner .carousel-item img{
 .contact-info{
 	padding: 10px;
 	color: #b1233d;
+	width: 100%;
 }
 
 .contact-info span{
@@ -751,6 +752,10 @@ header .carousel-inner .carousel-item img{
 
 .inline-social-media li a{
 	color: #b1233d;
+}
+
+.contact-form{
+	width: 100%;
 }
 
 .contact-form label{
