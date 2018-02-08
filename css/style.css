@@ -24,7 +24,12 @@ body{
 	color: #b1233d;
 }
 
+.row{
+	width: 100%;
+}
+
 .coming-soon{
+	margin: 0 auto;
 	text-align: center;
 	font-weight: 700;
 }
