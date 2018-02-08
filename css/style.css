@@ -516,6 +516,17 @@ header .carousel-inner .carousel-item img{
 	font-size: 14px;
 }
 
+
+/* Track details page */
+.track-detail{
+	padding: 10px;
+	margin-bottom: 5%;
+}
+
+.track-detail h4{
+	text-decoration: underline;
+}
+
 .conference nav{
 	margin-top: 5%;
 }
