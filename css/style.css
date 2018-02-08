@@ -233,9 +233,15 @@ header .carousel-inner .carousel-item img{
 	display: block;
 }
 
+.keynote-speaker-bio{
+	border: 1px solid #fff;
+	padding: 10px;
+}
+
 .speaker-detail{
 	padding: 10px;
 	text-align: center;
+	height: 205px;
 }
 
 .speaker-detail p{
@@ -900,6 +906,13 @@ footer{
 
 	header .carousel-caption p{
 		font-size: 1em;
+	}
+
+
+	/* Home keynote speaker */
+	.speaker-detail{
+		padding: 10px;
+		text-align: center;
 	}
 
 	/* Call to action area */
