@@ -119,18 +119,15 @@
     <script>
       function myMap() {
           var myLocation = new google.maps.LatLng(42.377027, -71.116821);
+          var map = new google.maps.Map(document.getElementById('map'), {
+            zoom: 15,
+            mapTypeId: google.maps.MapTypeId.ROADMAP,
+            center: myLocation
+          });
           var marker = new google.maps.Marker({
-          position: myLocation,
-          map: map
-        });
-          var mapOptions = {
-              center: myLocation,
-              zoom: 15,
-              mapTypeId: google.maps.MapTypeId.ROADMAP,
-              marker: marker
-          }
-          
-      var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+            position: myLocation,
+            map: map
+          });
       }
     </script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDFTXUBI5ambkRtWHPNlhuAoVSYw3BaWxE&callback=myMap"></script>
