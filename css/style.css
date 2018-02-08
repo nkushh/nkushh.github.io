@@ -24,6 +24,11 @@ body{
 	color: #b1233d;
 }
 
+.coming-soon{
+	text-align: center;
+	font-weight: 700;
+}
+
 h2{
 	font-family: 'Open Sans Condensed', sans-serif;
 }
