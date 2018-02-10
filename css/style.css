@@ -412,6 +412,10 @@ header .carousel-inner .carousel-item img{
 	font-weight: 700;
 }
 
+.team .col-md-3{
+	margin-bottom: 3%;
+}
+
 .player{
 	padding: 0;
 	margin-bottom: 3%;
@@ -449,6 +453,7 @@ header .carousel-inner .carousel-item img{
   top: 5%;
   left: 2%;
   text-align: center;
+  line-height: 1.3;
 }
 
 .player-detail{
@@ -488,12 +493,20 @@ header .carousel-inner .carousel-item img{
 }
 
 .track{
-	padding: 10px;
 	margin-bottom: 5%;
 	text-align: center;
 	border: 1px solid #b1233d;
 	border-radius: 5px;
-	height: 300px;
+}
+
+.track-img img{
+	width: 100%;
+	height: 200px;
+}
+
+.track-info{
+	padding: 10px;
+	height: 220px;
 }
 
 .track:hover{
@@ -505,14 +518,14 @@ header .carousel-inner .carousel-item img{
 	color: #fff;
 }
 
-.track .fa{
+.track-info .fa{
 	font-size: 50px;
 	color: #b1233d;
 	margin-top: 5%;
 	margin-bottom: 5%;
 }
 
-.track p{
+.track-info p{
 	font-size: 14px;
 }
 
